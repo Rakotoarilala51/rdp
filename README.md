@@ -34,3 +34,11 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Présentation
+
+Ouvrir `/presentation` pour les huit diapositives : page de titre, énoncé intégral illustré, réseau de Petri d’un poste avec la base, réseau des quatre postes, conditions de départ, technologies, accès externes et démonstration. L’illustration de l’énoncé est dans `public/illustration.png`.
+
+Navigation : boutons, sommaire, flèches gauche/droite ou espace. Début/Fin permettent de rejoindre la première/dernière diapositive. Le bouton Plein écran utilise le mode natif du navigateur.
+
+Le contenu se modifie dans `app/presentation/presentation.tsx`, le style dans `app/presentation/presentation.module.css`. La simulation reste disponible à `/`. L’extension pour les accès externes est expliquée dans le diaporama, mais n’est pas implémentée dans le simulateur.
