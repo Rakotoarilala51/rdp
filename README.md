@@ -37,8 +37,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 ## Présentation
 
-Ouvrir `/presentation` pour les huit diapositives : page de titre, énoncé intégral illustré, réseau de Petri d’un poste avec la base, réseau des quatre postes, conditions de départ, technologies, accès externes et démonstration. L’illustration de l’énoncé est dans `public/illustration.png`.
+Ouvrir `/presentation` pour les cinq diapositives : page de titre, énoncé intégral illustré, réseau de Petri d’un poste avec la base, réseau des quatre postes et technologies. L’illustration de l’énoncé est dans `public/illustration.png`.
 
 Navigation : boutons, sommaire, flèches gauche/droite ou espace. Début/Fin permettent de rejoindre la première/dernière diapositive. Le bouton Plein écran utilise le mode natif du navigateur.
 
-Le contenu se modifie dans `app/presentation/presentation.tsx`, le style dans `app/presentation/presentation.module.css`. La simulation reste disponible à `/`. L’extension pour les accès externes est expliquée dans le diaporama, mais n’est pas implémentée dans le simulateur.
+Le contenu se modifie dans `app/presentation/presentation.tsx`, le style dans `app/presentation/presentation.module.css`. La simulation reste disponible à `/`.
